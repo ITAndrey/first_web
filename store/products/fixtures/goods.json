@@ -1,1 +1,35 @@
-[{"model": "products.products", "pk": 1, "fields": {"name": "Худи черного цвета с монограммами adidas Originals", "price": "6090.00", "quantity": 10, "image": "products_images/Adidas-hoodie.png", "categories": 1}}, {"model": "products.products", "pk": 2, "fields": {"name": "Синяя куртка The North Face", "price": "23725.00", "quantity": 5, "image": "products_images/Blue-jacket-The-North-Face.png", "categories": 1}}, {"model": "products.products", "pk": 3, "fields": {"name": "Коричневый спортивный oversized-топ ASOS DESIGN", "price": "3390.00", "quantity": 9, "image": "products_images/Brown-sports-oversized-top-ASOS-DESIGN.png", "categories": 1}}]
+[
+    {
+        "model": "products.products",
+        "pk": 1,
+        "fields": {
+            "name": "Худи черного цвета с монограммами adidas Originals",
+            "price": "6090.00",
+            "quantity": 10,
+            "image": "products_images/Adidas-hoodie.png",
+            "categories": 1
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 2,
+        "fields": {
+            "name": "Синяя куртка The North Face",
+            "price": "23725.00",
+            "quantity": 5,
+            "image": "products_images/Blue-jacket-The-North-Face.png",
+            "categories": 1
+        }
+    },
+    {
+        "model": "products.products",
+        "pk": 3,
+        "fields": {
+            "name": "Коричневый спортивный oversized-топ ASOS DESIGN",
+            "price": "3390.00",
+            "quantity": 9,
+            "image": "products_images/Brown-sports-oversized-top-ASOS-DESIGN.png",
+            "categories": 1
+        }
+    }
+]
