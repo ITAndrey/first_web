@@ -15,3 +15,7 @@ class Products(models.Model):
     quantity = models.PositiveIntegerField(default=0)
     image = models.ImageField(upload_to='products_images')
     categories = models.ForeignKey(to=ProductCategory, on_delete=models.CASCADE)
+
+
+    def __str__(self):
+        return f'Продукт: {self.name} | Категория: {self.categories.name}'
